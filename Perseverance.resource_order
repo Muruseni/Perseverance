@@ -1,7 +1,5 @@
 {
   "FolderOrderSettings":[
-    {"name":"tilesets","order":4,"path":"folders/tilesets.yy",},
-    {"name":"rooms","order":2,"path":"folders/rooms.yy",},
     {"name":"sprites","order":1,"path":"folders/sprites.yy",},
     {"name":"Animated Sprites","order":1,"path":"folders/sprites/Animated Sprites.yy",},
     {"name":"Autumn BG","order":36,"path":"folders/sprites/Autumn BG.yy",},

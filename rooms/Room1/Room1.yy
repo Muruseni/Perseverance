@@ -13,8 +13,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"rooms",
-    "path":"folders/rooms.yy",
+    "name":"Perseverance",
+    "path":"Perseverance.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

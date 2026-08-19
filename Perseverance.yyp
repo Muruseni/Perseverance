@@ -10,8 +10,6 @@
   },
   "defaultScriptType":0,
   "Folders":[
-    {"$GMFolder":"","%Name":"tilesets","folderPath":"folders/tilesets.yy","name":"tilesets","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Animated Sprites","folderPath":"folders/sprites/Animated Sprites.yy","name":"Animated Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Autumn BG","folderPath":"folders/sprites/Autumn BG.yy","name":"Autumn BG","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -137,7 +135,6 @@
     {"id":{"name":"Weeping_Willow1","path":"sprites/Weeping_Willow1/Weeping_Willow1.yy",},},
     {"id":{"name":"Weeping_Willow2","path":"sprites/Weeping_Willow2/Weeping_Willow2.yy",},},
     {"id":{"name":"Weeping_Willow3","path":"sprites/Weeping_Willow3/Weeping_Willow3.yy",},},
-    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
