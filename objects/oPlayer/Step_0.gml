@@ -17,24 +17,24 @@ InputMagnitude = RightKey - LeftKey;
 // -- Movement --
 if (SprintKey) {
     
-    hSpeed = InputMagnitude * RunSpeed;
+    SpeedH = InputMagnitude * RunSpeed;
 } else {
     
-    hSpeed = InputMagnitude * WalkSpeed;
+    SpeedH = InputMagnitude * WalkSpeed;
 }
 
 //jump
 if (JumpKey && OnGround) {
     
-    vSpeed = -JumpSpeed;
+    SpeedV = -JumpSpeed;
     OnGround = false;
 }
 
 //gravity
-vSpeed += Gravity;
-if (vSpeed > MaxFallSpeed) {
+SpeedV += Gravity;
+if (SpeedV > MaxFallSpeed) {
         
-    vSpeed = MaxFallSpeed;
+    SpeedV = MaxFallSpeed;
 }
 
 scSpriteCollision();

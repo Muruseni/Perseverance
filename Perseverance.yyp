@@ -11,7 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"scripts","folderPath":"folders/scripts.yy","name":"scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"animated sprites","folderPath":"folders/sprites/animated sprites.yy","name":"animated sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"backgrounds","folderPath":"folders/sprites/backgrounds.yy","name":"backgrounds","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,7 +35,7 @@
   "name":"Perseverance",
   "resources":[
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
-    {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
+    {"id":{"name":"rStartRoom","path":"rooms/rStartRoom/rStartRoom.yy",},},
     {"id":{"name":"scMACROS","path":"scripts/scMACROS/scMACROS.yy",},},
     {"id":{"name":"scSpriteAnimate","path":"scripts/scSpriteAnimate/scSpriteAnimate.yy",},},
     {"id":{"name":"scSpriteCollision","path":"scripts/scSpriteCollision/scSpriteCollision.yy",},},
@@ -132,7 +132,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
+    {"roomId":{"name":"rStartRoom","path":"rooms/rStartRoom/rStartRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

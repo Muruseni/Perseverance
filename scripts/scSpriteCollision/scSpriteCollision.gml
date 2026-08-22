@@ -1,12 +1,12 @@
 function scSpriteCollision()
 {
     // -- Horizontal --
-    if (hSpeed != 0) {
+    if (SpeedH != 0) {
         
-        var _newX = x + hSpeed;
+        var _newX = x + SpeedH;
 
         // -- Right --
-        if (hSpeed > 0) {
+        if (SpeedH > 0) {
             
             var _right = _newX + CollisionWidth - 1;
             var _topTile = floor(y / TILE_SIZE);
@@ -34,7 +34,7 @@ function scSpriteCollision()
                 
                 var _tileX = floor(_right / TILE_SIZE);
                 _newX = _tileX * TILE_SIZE - CollisionWidth;
-                hSpeed = 0;
+                SpeedH = 0;
             }
         // -- Right End --
             
@@ -66,7 +66,7 @@ function scSpriteCollision()
                 
                 var _tileX = floor(_left / TILE_SIZE);
                 _newX = (_tileX + 1) * TILE_SIZE;
-                hSpeed = 0;
+                SpeedH = 0;
             }
         }
             // -- Left End --
@@ -79,12 +79,12 @@ function scSpriteCollision()
     // -- Vertical --
     OnGround = false;
 
-    if (vSpeed != 0) {
+    if (SpeedV != 0) {
         
-        var _newY = y + vSpeed;
+        var _newY = y + SpeedV;
 
         // -- Falling --
-        if (vSpeed > 0) {
+        if (SpeedV > 0) {
             
             var _bottom = _newY + CollisionHeight;
             var _leftTile = floor(x / TILE_SIZE);
@@ -106,7 +106,7 @@ function scSpriteCollision()
                 
                 var _tileY = floor(_bottom / TILE_SIZE);
                 _newY = _tileY * TILE_SIZE - CollisionHeight;
-                vSpeed = 0;
+                SpeedV = 0;
                 OnGround = true;
             } 
         // -- Falling End --
@@ -140,7 +140,7 @@ function scSpriteCollision()
                 
                 var _tileY = floor(_top / TILE_SIZE);
                 _newY = (_tileY + 1) * TILE_SIZE;
-                vSpeed = 0;
+                SpeedV = 0;
             }
         }
             // -- Jumping End --

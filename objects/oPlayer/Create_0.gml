@@ -2,8 +2,8 @@
 CollisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 
 //movement
-vSpeed = 0;
-hSpeed = 0;
+SpeedV = 0;
+SpeedH = 0;
 
 WalkSpeed = 0.8;
 RunSpeed = 1.2;
@@ -16,7 +16,7 @@ MaxFallSpeed = 6;
 JumpSpeed = 3;
 OnGround = false;
 
-//collision box
+//collision  
 CollisionWidth = 15;
 CollisionHeight = 43;
 
